@@ -1,15 +1,13 @@
-import { useState } from 'react';
+import { React } from 'react';
 import './App.css';
+import NavigationBar from './components/NavigationBar';
 
 function App() {
 
   return (
-    // Tailwind Test
-    <div className="min-h-screen flex items-center justify-center bg-green-500 text-white">
-      <h1 className="text-3xl font-bold">
-        Tailwind is Working!
-      </h1>
-    </div>
+    <>
+      <NavigationBar/>
+    </>
   );
 
 }
