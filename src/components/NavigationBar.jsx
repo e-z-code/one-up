@@ -5,7 +5,7 @@ function NavigationBar() {
     
     return (
         <nav className="fixed top-0 left-0 w-full bg-ivory border-b border-black">
-            <div className = "flex items-center justify-between max-w-7xl mx-auto h-16 px-4 font-mono font-semibold sm:px-6 lg:px-8">
+            <div className="flex items-center justify-between max-w-full h-16 px-4 font-mono font-semibold sm:px-6 lg:px-8">
 
                 {/* Left (Pages) */}
                 <div className="flex space-x-6 text-black">
@@ -20,13 +20,13 @@ function NavigationBar() {
                 {/* Right (Icons) */}
                 <div className="flex items-center rounded-full space-x-4 text-black">
                     <button>
-                        <User className="w-4 h-4" />
+                        <User className="w-4 h-4"/>
                     </button>
                     <button>
-                        <Heart className="w-4 h-4" />
+                        <Heart className="w-4 h-4"/>
                     </button>
                     <button className="flex items-center">
-                        <ShoppingCart className="w-4 h-4 mr-2" />
+                        <ShoppingCart className="w-4 h-4 mr-2"/>
                         <span className="text-xs">0</span>
                     </button>
                 </div>
