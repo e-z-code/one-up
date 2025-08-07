@@ -5,7 +5,7 @@ function NavigationBar() {
     
     return (
         <nav className="fixed top-0 left-0 w-full bg-ivory border-b border-black">
-            <div className="flex items-center justify-between max-w-full h-16 px-4 font-mono font-semibold sm:px-6 lg:px-8">
+            <div className="flex items-center justify-between max-w-full h-16 px-4 font-semibold sm:px-6 lg:px-8">
 
                 {/* Left (Pages) */}
                 <div className="flex space-x-6 text-black">
@@ -18,14 +18,14 @@ function NavigationBar() {
                 <a href="/" className="text-3xl text-black">1UP</a>
 
                 {/* Right (Icons) */}
-                <div className="flex items-center rounded-full space-x-4 text-black">
-                    <button>
+                <div className="flex items-center rounded-full space-x-4">
+                    <button className="bg-dark-beige text-black hover:bg-black hover:text-white">
                         <User className="w-4 h-4"/>
                     </button>
-                    <button>
+                    <button className="bg-dark-beige text-black hover:bg-black hover:text-white">
                         <Heart className="w-4 h-4"/>
                     </button>
-                    <button className="flex items-center">
+                    <button className="flex items-center bg-dark-beige text-black hover:bg-black hover:text-white">
                         <ShoppingCart className="w-4 h-4 mr-2"/>
                         <span className="text-xs">0</span>
                     </button>
